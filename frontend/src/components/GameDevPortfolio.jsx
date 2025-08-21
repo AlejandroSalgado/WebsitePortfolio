@@ -6,7 +6,7 @@ import { Input } from './ui/input';
 import { Textarea } from './ui/textarea';
 import { useToast } from '../hooks/use-toast';
 import AnimatedBackground from './AnimatedBackground';
-import { heroData, projectsData, skillsData, socialLinks, contactData } from './mock';
+import { heroData, projectsData, skillsData, socialLinks, contactData } from './data';
 import './GameDevPortfolio.css';
 
 const GameDevPortfolio = () => {
