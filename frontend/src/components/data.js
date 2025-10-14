@@ -1,5 +1,7 @@
+// Import local images
+import FPS_Image from './images/AnimFPS.png';
+import SteamOS_Image from './images/SteamOS.png';
 // Mock data for Game Developer Portfolio
-
 export const heroData = {
   name: "Jorge Alejandro Salgado L.",
   title: "Game Developer | Unreal Engine | AI",
@@ -12,18 +14,18 @@ export const projectsData = [
     id: 1,
     title: "First Person Shooter (FPS) with UMG and Animations",
     description: "Using AI-driven combat algorithms and pathfinding for dynamic enemy behavior in Unreal Engine 5 for a First Person Shooter (FPS) and using TreeBehaviours for animations",
-    thumbnail: "https://images.unsplash.com/photo-1634585738250-09ee92cae0f8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwxfHxmdXR1cmlzdGljJTIwZ2FtZXxlbnwwfHx8fDE3NTU4MTAyOTl8MA&ixlib=rb-4.1.0&q=85",
+    thumbnail: FPS_Image,
     githubLink: "#",
-    videoLink: "#",
+    videoLink: "https://youtu.be/AE423fI1b1A",
     technologies: ["Unreal Engine 5", "C++", "Enemy-AI", "Blueprints", "TreeBehaviour", "Combat System", "UMG"]
   },
   {
     id: 2,
-    title: "Online Subsystem: Steam First Person Shooter (FPS)",
-    description: "Atmospheric level design with dynamic lighting, interactive environments, and immersive storytelling elements.",
-    thumbnail: "https://images.unsplash.com/photo-1627645835237-0743e52b991f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwyfHxmdXR1cmlzdGljJTIwZ2FtZXxlbnwwfHx8fDE3NTU4MTAyOTl8MA&ixlib=rb-4.1.0&q=85",
+    title: "Online Subsystem with Steam",
+    description: "Seamlessly integrated Steam multiplayer in Unreal Engine 5 using the Online Subsystem. Players can host or join sessions with friends through a simple UMG menu. Built with Blueprints and C++, this system handles session creation, discovery, and connection — making multiplayer setup effortless.",
+    thumbnail: SteamOS_Image,
     githubLink: "#",
-    videoLink: "#",
+    videoLink: "https://youtu.be/WIkf-BLRFQQ",
     technologies: ["Steam Online Subsystem", "Combat System", "Personalized Multiplayer Plugin", "Level Design", "Lighting"]
   },
   {
