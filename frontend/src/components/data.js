@@ -17,7 +17,7 @@ export const projectsData = [
     thumbnail: FPS_Image,
     githubLink: "#",
     videoLink: "https://youtu.be/AE423fI1b1A",
-    technologies: ["Unreal Engine 5", "C++", "Enemy-AI", "Blueprints", "TreeBehaviour", "Combat System", "UMG"]
+    technologies: ["Unreal Engine 5", "C++", "Enemy-AI", "Blueprints", "Combat System", "TreeBehaviour", "Combat System"]
   },
   {
     id: 2,
@@ -26,7 +26,7 @@ export const projectsData = [
     thumbnail: SteamOS_Image,
     githubLink: "#",
     videoLink: "https://youtu.be/WIkf-BLRFQQ",
-    technologies: ["Steam Online Subsystem", "Combat System", "Personalized Multiplayer Plugin", "Level Design", "Lighting"]
+    technologies: ["Steam Online Subsystem", "C++" , "Personalized Multiplayer Plugin", "UMG"]
   },
   {
     id: 3,
