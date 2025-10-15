@@ -17,7 +17,7 @@ export const projectsData = [
     thumbnail: FPS_Image,
     githubLink: "#",
     videoLink: "https://youtu.be/AE423fI1b1A",
-    technologies: ["Unreal Engine 5", "C++", "Enemy-AI", "Blueprints", "Combat System", "TreeBehaviour", "Combat System"]
+    technologies: ["Unreal Engine 5", "C++", "Enemy-AI", "Blueprints", "Combat System", "TreeBehaviour"]
   },
   {
     id: 2,
