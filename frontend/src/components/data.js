@@ -13,7 +13,7 @@ export const projectsData = [
   {
     id: 1,
     title: "First Person Shooter (FPS) with UMG and Animations",
-    description: "Using AI-driven combat algorithms and pathfinding for dynamic enemy behavior in Unreal Engine 5 for a First Person Shooter (FPS) and using TreeBehaviours for animations",
+    description: "Using AI-driven combat algorithms and pathfinding for dynamic enemy behavior in Unreal Engine 5 for a First Person Shooter (FPS) and using TreeBehaviours for animations and navigation. Designed and implemented a full combat system including guns, shooting mechanics, and health management.",
     thumbnail: FPS_Image,
     githubLink: "#",
     videoLink: "https://youtu.be/AE423fI1b1A",
