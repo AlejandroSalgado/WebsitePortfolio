@@ -88,11 +88,11 @@ const GameDevPortfolio = () => {
                     <img src={project.thumbnail} alt={project.title} />
                     <div className="project-overlay">
                       <div className="project-actions">
-                        <Button size="sm" className="btn-secondary">
+                        <Button size="sm" className="btn-secondary" onClick={() => window.open(project.githubLink, '_blank')}>
                           <Github className="icon" />
                           Code
                         </Button>
-                        <Button size="sm" className="btn-primary">
+                        <Button size="sm" className="btn-primary" onClick={() => window.open(project.videoLink, '_blank')}>
                           <Play className="icon" />
                           Demo
                         </Button>
@@ -203,7 +203,7 @@ const GameDevPortfolio = () => {
       {/* Footer */}
       <footer className="footer">
         <div className="footer-content">
-          <p>&copy; 2024 Jorge Alejandro Salgado L. Building the future of gaming.</p>
+          <p>&copy; 2025 Jorge Alejandro Salgado L. Building the future of gaming.</p>
         </div>
       </footer>
     </div>
