@@ -1,6 +1,8 @@
 // Import local images
 import FPS_Image from './images/AnimFPS.png';
 import SteamOS_Image from './images/SteamOS.png';
+import CryptRaider_Image from './images/CryptRaider.png';
+
 // Mock data for Game Developer Portfolio
 export const heroData = {
   name: "Jorge Alejandro Salgado L.",
@@ -12,30 +14,30 @@ export const heroData = {
 export const projectsData = [
   {
     id: 1,
-    title: "First Person Shooter (FPS) with UMG and Animations",
-    description: "Using AI-driven combat algorithms and pathfinding for dynamic enemy behavior in Unreal Engine 5 for a First Person Shooter (FPS) and using TreeBehaviours for animations and navigation. Designed and implemented a full combat system including guns, shooting mechanics, and health management.",
-    thumbnail: FPS_Image,
-    githubLink: "#",
-    videoLink: "https://youtu.be/AE423fI1b1A",
-    technologies: ["Unreal Engine 5", "C++", "Enemy-AI", "Blueprints", "Combat System", "TreeBehaviour"]
+    title: "Unreal Engine 5 Level Design | Lumen Lighting, Interactions & Puzzle Mechanics",
+    description: "Using AI-driven combat algorithms and pathfinding for dynamic enemy behavior in Unreal Engine 5 for a First Person Shooter (FPS) and using TreeBehaviours for animations",
+    thumbnail: CryptRaider_Image,
+    githubLink: "https://github.com/AlejandroSalgado/Game-Developer-Portfolio/tree/main/projects/CryptRaider/code-snippets",
+    videoLink: "https://youtu.be/02jhFMy7i3M",
+    technologies: ["Unreal Engine 5", "C++", "Lumen", "Blueprints", "Collisions", "Level Design", "Puzzle Mechanics", "Interactions"]
   },
   {
     id: 2,
-    title: "Online Subsystem with Steam",
-    description: "Seamlessly integrated Steam multiplayer in Unreal Engine 5 using the Online Subsystem. Players can host or join sessions with friends through a simple UMG menu. Built with Blueprints and C++, this system handles session creation, discovery, and connection — making multiplayer setup effortless.",
-    thumbnail: SteamOS_Image,
-    githubLink: "#",
-    videoLink: "https://youtu.be/WIkf-BLRFQQ",
-    technologies: ["Steam Online Subsystem", "C++" , "Personalized Multiplayer Plugin", "UMG"]
+    title: "First Person Shooter (FPS) with UMG and Animations",
+    description: "Using AI-driven combat algorithms and pathfinding for dynamic enemy behavior in Unreal Engine 5 for a First Person Shooter (FPS) and using TreeBehaviours for animations",
+    thumbnail: FPS_Image,
+    githubLink: "https://github.com/AlejandroSalgado/Game-Developer-Portfolio/tree/main/projects/FPS/code-snippets",
+    videoLink: "https://youtu.be/AE423fI1b1A",
+    technologies: ["Unreal Engine 5", "C++", "Enemy-AI", "Blueprints", "TreeBehaviour", "Combat System", "UMG"]
   },
   {
     id: 3,
-    title: "Other...",
-    description: "Experimental VR environment showcasing realistic physics simulations and intuitive hand tracking interactions.",
-    thumbnail: "https://images.pexels.com/photos/8721318/pexels-photo-8721318.jpeg",
-    githubLink: "#",
-    videoLink: "#",
-    technologies: ["VR/AR", "Physics", "Hand Tracking", "Unreal Engine"]
+    title: "Online Subsystem with Steam",
+    description: "Seamlessly integrated Steam multiplayer in Unreal Engine 5 using the Online Subsystem. Players can host or join sessions with friends through a simple UMG menu. Built with Blueprints and C++, this system handles session creation, discovery, and connection — making multiplayer setup effortless.",
+    thumbnail: SteamOS_Image,
+    githubLink: "https://github.com/AlejandroSalgado/Game-Developer-Portfolio/tree/main/projects/MultiplayerSessions/code-snippets",
+    videoLink: "https://youtu.be/WIkf-BLRFQQ",
+    technologies: ["Steam Online Subsystem", "Combat System", "Personalized Multiplayer Plugin", "Level Design", "Lighting"]
   }
 ];
 
