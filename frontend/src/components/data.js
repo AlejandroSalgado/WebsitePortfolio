@@ -17,7 +17,7 @@ export const projectsData = [
     title: "Unreal Engine 5 Level Design | Lumen Lighting, Interactions & Puzzle Mechanics",
     description: "Using AI-driven combat algorithms and pathfinding for dynamic enemy behavior in Unreal Engine 5 for a First Person Shooter (FPS) and using TreeBehaviours for animations",
     thumbnail: CryptRaider_Image,
-    githubLink: "https://github.com/AlejandroSalgado/Game-Developer-Portfolio/tree/main/projects/CryptRaider/code-snippets",
+    githubLink: "https://github.com/AlejandroSalgado/Game-Developer-Portfolio/blob/main/README.md",
     videoLink: "https://youtu.be/02jhFMy7i3M",
     technologies: ["Unreal Engine 5", "C++", "Lumen", "Blueprints", "Collisions", "Level Design", "Puzzle Mechanics", "Interactions"]
   },
@@ -26,7 +26,7 @@ export const projectsData = [
     title: "First Person Shooter (FPS) with UMG and Animations",
     description: "Using AI-driven combat algorithms and pathfinding for dynamic enemy behavior in Unreal Engine 5 for a First Person Shooter (FPS) and using TreeBehaviours for animations",
     thumbnail: FPS_Image,
-    githubLink: "https://github.com/AlejandroSalgado/Game-Developer-Portfolio/tree/main/projects/FPS/code-snippets",
+    githubLink: "https://github.com/AlejandroSalgado/Game-Developer-Portfolio/blob/main/README.md",
     videoLink: "https://youtu.be/AE423fI1b1A",
     technologies: ["Unreal Engine 5", "C++", "Enemy-AI", "Blueprints", "TreeBehaviour", "Combat System", "UMG"]
   },
@@ -35,7 +35,7 @@ export const projectsData = [
     title: "Online Subsystem with Steam",
     description: "Seamlessly integrated Steam multiplayer in Unreal Engine 5 using the Online Subsystem. Players can host or join sessions with friends through a simple UMG menu. Built with Blueprints and C++, this system handles session creation, discovery, and connection — making multiplayer setup effortless.",
     thumbnail: SteamOS_Image,
-    githubLink: "https://github.com/AlejandroSalgado/Game-Developer-Portfolio/tree/main/projects/MultiplayerSessions/code-snippets",
+    githubLink: "https://github.com/AlejandroSalgado/Game-Developer-Portfolio/blob/main/README.md",
     videoLink: "https://youtu.be/WIkf-BLRFQQ",
     technologies: ["Steam Online Subsystem", "Combat System", "Personalized Multiplayer Plugin", "Level Design", "Lighting"]
   }
