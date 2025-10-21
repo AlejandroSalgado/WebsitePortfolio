@@ -74,6 +74,11 @@ export const socialLinks = [
     name: "LinkedIn",
     url: "https://www.linkedin.com/in/jalsalgado/",
     icon: "Linkedin"
+  },
+  {
+    name: "jalsalgado1@gmail.com",
+    url: "mailto:jalsalgado1@gmail.com",
+    icon: "Email"
   }
 ];
 
