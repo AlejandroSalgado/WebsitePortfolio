@@ -37,7 +37,7 @@ export const projectsData = [
     thumbnail: SteamOS_Image,
     githubLink: "https://github.com/AlejandroSalgado/Game-Developer-Portfolio/blob/main/README.md",
     videoLink: "https://youtu.be/WIkf-BLRFQQ",
-    technologies: ["Steam Online Subsystem", "Combat System", "Personalized Multiplayer Plugin", "Level Design", "Lighting"]
+    technologies: ["Steam Online Subsystem", "Combat System", "Personalized Multiplayer Plugin", "Level Design"]
   }
 ];
 
