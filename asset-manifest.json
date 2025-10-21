@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/WebsitePortfolio/static/css/main.50579309.css",
+    "main.js": "/WebsitePortfolio/static/js/main.871e9203.js",
+    "static/media/CryptRaider.png": "/WebsitePortfolio/static/media/CryptRaider.d8e90edc85b4a4a7f249.png",
+    "static/media/AnimFPS.png": "/WebsitePortfolio/static/media/AnimFPS.673ac63baf038b497acc.png",
+    "static/media/SteamOS.png": "/WebsitePortfolio/static/media/SteamOS.6cddf97a3ad1308bc7f5.png",
+    "index.html": "/WebsitePortfolio/index.html",
+    "main.50579309.css.map": "/WebsitePortfolio/static/css/main.50579309.css.map",
+    "main.871e9203.js.map": "/WebsitePortfolio/static/js/main.871e9203.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50579309.css",
+    "static/js/main.871e9203.js"
+  ]
+}
