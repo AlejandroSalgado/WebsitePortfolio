@@ -2,6 +2,7 @@
 import FPS_Image from './images/AnimFPS.png';
 import SteamOS_Image from './images/SteamOS.png';
 import CryptRaider_Image from './images/CryptRaider.png';
+import TankAssault_Image from './images/TankAssault.png';
 
 // Mock data for Game Developer Portfolio
 export const heroData = {
@@ -37,7 +38,16 @@ export const projectsData = [
     thumbnail: SteamOS_Image,
     githubLink: "https://github.com/AlejandroSalgado/Game-Developer-Portfolio/blob/main/README.md",
     videoLink: "https://youtu.be/WIkf-BLRFQQ",
-    technologies: ["Steam Online Subsystem", "Combat System", "Personalized Multiplayer Plugin", "Level Design"]
+    technologies: ["Unreal Engine 5", "C++","Steam Online Subsystem", "Combat System", "Personalized Multiplayer Plugin", "Level Design"]
+  },
+  {
+    id: 4,
+    title: "Tank Assault Prototype",
+    description: "A fast-paced UE5 project where AI turrets track and shoot automatically while you control a tank using smooth keyboard + mouse controls. Built with C++, Blueprints, and Behavior Trees for smart combat and reactive gameplay",
+    thumbnail: TankAssault_Image,
+    githubLink: "https://github.com/AlejandroSalgado/Game-Developer-Portfolio/blob/main/README.md",
+    videoLink: "https://youtu.be/G9XpZZ7nkqw",
+    technologies: ["Unreal Engine 5", "C++","AI Behavior Trees", "Projectile & Health Systems", "Combat System", "Input Mapping for Player Controls", "Line of Sight", "Perception Systems"]
   }
 ];
 
