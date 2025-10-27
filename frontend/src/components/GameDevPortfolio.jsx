@@ -148,8 +148,8 @@ const GameDevPortfolio = () => {
                 {socialLinks.map((social) => (
                   <a key={social.name} href={social.url} className="social-link">
                     {social.icon === 'Github' && <Github className="social-icon" />}
-                    {social.icon === 'Linkedin' && <Linkedin className="social-icon" />
-                    {social.icon === 'Email' && <Mail className="social-icon" />}}
+                    {social.icon === 'Linkedin' && <Linkedin className="social-icon" />}
+                    {social.icon === 'Email' && <Mail className="social-icon" />}
                     <span>{social.name}</span>
                   </a>
                 ))}
