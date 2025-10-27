@@ -19,7 +19,7 @@ export const projectsData = [
     description: "Using AI-driven combat algorithms and pathfinding for dynamic enemy behavior in Unreal Engine 5 for a First Person Shooter (FPS) and using TreeBehaviours for animations",
     thumbnail: CryptRaider_Image,
     githubLink: "https://github.com/AlejandroSalgado/Game-Developer-Portfolio/blob/main/README.md",
-    videoLink: "https://youtu.be/02jhFMy7i3M",
+    videoLink: "https://www.youtube.com/embed/02jhFMy7i3M",
     technologies: ["Unreal Engine 5", "C++", "Lumen", "Blueprints", "Collisions", "Level Design", "Puzzle Mechanics", "Interactions"]
   },
   {
@@ -28,7 +28,7 @@ export const projectsData = [
     description: "Using AI-driven combat algorithms and pathfinding for dynamic enemy behavior in Unreal Engine 5 for a First Person Shooter (FPS) and using TreeBehaviours for animations",
     thumbnail: FPS_Image,
     githubLink: "https://github.com/AlejandroSalgado/Game-Developer-Portfolio/blob/main/README.md",
-    videoLink: "https://youtu.be/AE423fI1b1A",
+    videoLink: "https://www.youtube.com/embed/AE423fI1b1A",
     technologies: ["Unreal Engine 5", "C++", "Enemy-AI", "Blueprints", "TreeBehaviour", "Combat System", "UMG"]
   },
   {
@@ -37,7 +37,7 @@ export const projectsData = [
     description: "Seamlessly integrated Steam multiplayer in Unreal Engine 5 using the Online Subsystem. Players can host or join sessions with friends through a simple UMG menu. Built with Blueprints and C++, this system handles session creation, discovery, and connection — making multiplayer setup effortless.",
     thumbnail: SteamOS_Image,
     githubLink: "https://github.com/AlejandroSalgado/Game-Developer-Portfolio/blob/main/README.md",
-    videoLink: "https://youtu.be/WIkf-BLRFQQ",
+    videoLink: "https://www.youtube.com/embed/WIkf-BLRFQQ",
     technologies: ["Unreal Engine 5", "C++","Steam Online Subsystem", "Combat System", "Personalized Multiplayer Plugin", "Level Design"]
   },
   {
@@ -46,7 +46,7 @@ export const projectsData = [
     description: "A fast-paced UE5 project where AI turrets track and shoot automatically while you control a tank using smooth keyboard + mouse controls. Built with C++, Blueprints, and Behavior Trees for smart combat and reactive gameplay",
     thumbnail: TankAssault_Image,
     githubLink: "https://github.com/AlejandroSalgado/Game-Developer-Portfolio/blob/main/README.md",
-    videoLink: "https://youtu.be/G9XpZZ7nkqw",
+    videoLink: "https://www.youtube.com/embed/G9XpZZ7nkqw",
     technologies: ["Unreal Engine 5", "C++","AI Behavior Trees", "Projectile & Health Systems", "Combat System", "Input Mapping for Player Controls", "Line of Sight", "Perception Systems"]
   }
 ];
