@@ -10,7 +10,7 @@ function App() {
   // Use this to deploy:  <BrowserRouter basename="/WebsitePortfolio">
   return (
     <div className="App">
-      <BrowserRouter basename="/">
+      <BrowserRouter basename="/WebsitePortfolio">
         <Routes>
           <Route path="/" element={<GameDevPortfolio />} />
         </Routes>
