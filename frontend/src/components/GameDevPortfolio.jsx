@@ -38,6 +38,9 @@ const GameDevPortfolio = () => {
     document.getElementById(sectionId)?.scrollIntoView({ behavior: 'smooth' });
   };
 
+  const startYear = 2025;
+  const currentYear = new Date().getFullYear();
+
   return (
     <div className="portfolio-container">
       {/* Header */}
@@ -204,7 +207,7 @@ const GameDevPortfolio = () => {
       {/* Footer */}
       <footer className="footer">
         <div className="footer-content">
-          <p>&copy; 2026 Jorge Alejandro Salgado L. Building the future of gaming.</p>
+          <p>&copy; {startYear===currentYear ? currentYear : `${startYear} – ${currentYear}`} Jorge Alejandro Salgado L. Building the future of gaming.</p>
         </div>
       </footer>
     </div>
