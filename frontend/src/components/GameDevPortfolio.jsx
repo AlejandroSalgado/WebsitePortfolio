@@ -204,7 +204,7 @@ const GameDevPortfolio = () => {
       {/* Footer */}
       <footer className="footer">
         <div className="footer-content">
-          <p>&copy; 2025 Jorge Alejandro Salgado L. Building the future of gaming.</p>
+          <p>&copy; 2026 Jorge Alejandro Salgado L. Building the future of gaming.</p>
         </div>
       </footer>
     </div>
